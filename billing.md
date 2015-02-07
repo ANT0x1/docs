@@ -16,8 +16,8 @@ git 4deba2bfca6636d5cdcede3f2068eff3b59c15ce
 - [Обработка ошибок платежей](#handling-failed-payments)
 - [Handling Other Stripe Webhooks](#handling-other-stripe-webhooks)
 - [Счета](#invoices)
-- 
-- <a name="introduction"></a>
+
+<a name="introduction"></a>
 ## Введение
 
 Laravel Cashier обеспечивает удобный и мощный интерфейс для [Stripe](https://stripe.com) subscription billing services. Он обрабатывает почти весь код оплаты подписок, который вы остерегались писать of the boilerplate subscription billing code you are dreading writing. В дополнение к базовым функциям управления подпиской, Cashier может обравабывать купоны, переводить на други планы подписок, "количество" подписки, отменять льготные периоды, и даже генерировать счета в виде PDF.
